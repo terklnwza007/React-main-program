@@ -1,0 +1,68 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(54, 34, 34);
+    padding: 20px 80px;
+    box-shadow: 0 5px 15px black;
+}
+.nav-background{
+    background: gray;
+    align-items:center;
+    box-shadow: 0 5px 15px black;
+}
+.Text-in-order{
+  color: black;
+  text-align: center;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.grid_order{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr;
+    row-gap: 20px;
+}
+.button-pay{
+    color: black;
+    background-color: rgb(184, 58, 8);
+    border-radius: 15px;
+    opacity: 1;
+    width: 200px;
+    height: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    text-align: center;
+    cursor: pointer;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 20px;
+}
+.button-order{
+    color: black;
+    background-color: rgb(159, 201, 9);
+    border-radius: 15px;
+    opacity: 1;
+    width: 200px;
+    height: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    text-align: center;
+    cursor: pointer;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 20px;
+}
+
+.background-order{
+    background-color:aliceblue;
+    height: 100%;
+
+}
